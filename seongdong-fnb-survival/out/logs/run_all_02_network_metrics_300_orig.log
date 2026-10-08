@@ -1,0 +1,17 @@
+KIND=orig RADIUS=300.0m n=11805 평균 정적 동일업종 후보=123.8
+재현 검증 Competitor_C: 불일치 0건 / 11805
+재현 검증 Adjacent_BIZ: 불일치 0건 / 11805
+재현 검증 Business_D: 불일치 0건 / 11805
+재현 검증 Competitor_R: 최대 절대오차 1.11e-16
+                count     mean     std  min     25%     50%      75%     max
+Competitor_C  11805.0   32.274  34.939  0.0   5.000  19.000   48.000  180.00
+Adjacent_BIZ  11805.0  112.568  83.866  0.0  47.000  90.000  162.000  397.00
+Business_D    11805.0   10.495   3.458  0.0   8.000  11.000   13.000   18.00
+Competitor_R  11805.0    0.303   0.238  0.0   0.069   0.269    0.513    1.00
+Clust_Coef    11805.0    0.700   0.297  0.0   0.647   0.769    0.900    1.00
+NbrDeg_Mean   11805.0   34.543  34.488  0.0   6.000  22.240   56.341  151.75
+NbrDeg_Max    11805.0   45.913  45.395  0.0   7.000  30.000   79.000  190.00
+Ego_Density   11805.0    0.779   0.236  0.0   0.705   0.821    0.942    1.00
+saved C:\Users\User\OneDrive\바탕 화면\26-2학기\AI_Capstone\AI_Capstone_ Data Analysis\seongdong-fnb-survival\out\network_orig_r300.csv
+
+---STDERR---

@@ -1,0 +1,32 @@
+polygon CRS 5181 | sample: [['골목상권', '배화여자대학교(박노수미술관)', '청운효자동'], ['관광특구', '종로·청계 관광특구', '종로1·2·3·4가동'], ['전통시장', '신설종합시장', '숭인2동']]
+점포 수 11805 | 매칭 0개: 2118 (17.9%) | 1개: 9687 | 2개 이상(폴리곤 중복): 0
+
+상권 구분별 점포수:
+ 상권구분명
+골목상권    4662
+전통시장    2649
+발달상권    2376
+NaN     2118
+Name: count, dtype: int64
+
+매칭된 상권 수: 56
+
+폐업 비율 (상권 내/외):
+ in_trdar
+0    0.746
+1    0.710
+Name: 영업상태명, dtype: float64
+
+연대별 상권 내 비율:
+ yr
+1970    0.897
+1980    0.864
+1990    0.849
+2000    0.828
+2010    0.789
+2020    0.801
+Name: in_trdar, dtype: float64
+
+saved C:\Users\User\OneDrive\바탕 화면\26-2학기\AI_Capstone\AI_Capstone_ Data Analysis\seongdong-fnb-survival\out\tier0_trdar.csv (11805, 22)
+
+---STDERR---
